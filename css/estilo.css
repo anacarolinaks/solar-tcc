@@ -1,0 +1,239 @@
+body{
+    background: #F5F5DC;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.container_principal{
+    width: 955px;
+    background-color: #FFFAF0;
+    margin: auto;
+}
+
+div.cabecalho{
+    background-color: #FFFAF0;
+    width: 890px;
+    height: 190px;
+    margin: auto;
+
+}
+
+div.logo{
+    width: 90px;
+    float: left;
+}
+
+
+div.texto1{
+    background-color: #FFFAF0;
+    width: 315px;
+    height: 250px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    text-align: center;
+}
+
+div.login{
+    background-color: #FFFAF0;
+    width: 618px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+
+
+
+}
+
+div.info{
+    background-color: #FFFAF0;
+    width: 955px;
+    height: 100px;
+    float: left;
+    margin-bottom: 10px;
+    
+}
+
+div.divmenu {
+    width: 946px;
+    background-color: #F5F5DC;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+    
+}
+
+p{
+    color: black;
+    text-indent: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: justify;
+}
+
+div.excluir{
+    color: #FF4500;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#imgtel{
+    float: left;
+}
+
+
+#alinham1{
+    display: inline;
+}
+
+#alinham2{
+    text-align: right;
+}
+
+#linkLogout{
+    font-size: 11px;
+}
+
+div.ola{
+    text-align: right;
+}
+
+div.projet{
+    text-align: center;
+}
+
+div.footer {
+    clear:both;
+    background-color: #FFFAF0;
+    text-align: center; 
+    height: 20px;
+    margin: 20px auto;
+    width: 955px;
+}
+
+
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    /* visual do link */
+    background-color: #FFFAF0;
+    color: #000000;
+    text-decoration: none;
+    border-bottom:3px solid #FF4500;
+}
+
+#menu ul li a:hover {
+    background-color:#FFFAF0;
+    color: #FF4500;
+    border-bottom:3px solid #FF0000;
+}
+
+#menu2 ul {
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+}
+
+#menu2 ul li { display: inline; }
+
+#menu2 ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    /* visual do link */
+    background-color: #FFFFFF;
+    color: black;
+    text-decoration: none;
+    border-bottom:2px solid #FF0000;
+}
+
+#menu2 ul li a:hover {
+    background-color: #FFFFFF;
+    color: #FF0000;
+    border-bottom:2px solid #000000;
+}
+
+
+table.borda{
+    border-style: collapse;
+    margin: 5px;
+    width: 300px;
+}
+
+table{
+    font-size: 12px;
+    
+}
+#agendath{
+    width: 100px;
+    font-size: 22px;
+    background-color: #FFD700;
+    font-family: verdana;
+}
+
+td.agenda{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    font-size: 13px;
+    background-color: #CDC5BF;
+
+}
+
+td.tamanho{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    background-color: #FAFAD2;
+    font-size: 14px;
+}
+
+th.listar{
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    height: 30px;
+}
+
+td.listar{
+    height: 20px;
+    text-align: center;
+}
+
+td.vazio{
+    cursor:  pointer;
+}
+td.ocupado{
+    background-color: #FF3030;
+    text-align: center;
+    font-size: 13px;
+}
+
+td.minhaReserva{
+    background-color: #7FFFD4;
+    cursor:  pointer;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+tr.ex{
+    text-align: center;
+    height: 30px;
+}
+
+
+
+
